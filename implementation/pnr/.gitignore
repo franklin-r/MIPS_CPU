@@ -1,0 +1,8 @@
+*
+reports/*
+
+!reports/
+!netlist/
+!pnr.tcl
+!power.tcl
+!.gitignore

@@ -1,0 +1,13 @@
+Inca_libs_15_06_19
+*.v
+*.history
+run_fullscan_sim_sdf
+testresults/
+*.cmd
+*.log
+runmodus.atpg.tcl
+*.pinassign
+run_fullscan_sim
+tbdata/
+
+!.gitignore

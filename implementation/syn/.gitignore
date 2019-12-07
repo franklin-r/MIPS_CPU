@@ -1,0 +1,9 @@
+*
+netlist/*
+reports/*
+
+!netlist/
+!reports/
+!.gitignore
+!dft.tcl
+!synthesis.tcl
