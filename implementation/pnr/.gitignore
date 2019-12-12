@@ -1,8 +1,8 @@
-*
-
 !reports/power/mipsCPU_stat.rpt
 !reports/*.rpt
 !netlist/
 !pnr.tcl
 !power.tcl
 !.gitignore
+
+*

@@ -1,3 +1,7 @@
+!.gitignore
+!atpg.tcl
+!testresults/logs/log_create_sequential_tests_FULLSCAN_logic_112919154949-513520000
+
 Inca_libs_15_06_19
 *.v
 *.history
@@ -10,6 +14,3 @@ runmodus.atpg.tcl
 run_fullscan_sim
 tbdata/
 
-!.gitignore
-!atpg.tcl
-!testresults/logs/log_create_sequential_tests_FULLSCAN_logic_112919154949-513520000
