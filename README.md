@@ -57,7 +57,11 @@
 42.	Enter 'source power.tcl'
 
 # Comments
-Each module can be simulated individually with the .do scripts in the dource folder.
-1. 	In Modelsim, go to File and Change directory... Select the project's directory.
+Each module can be simulated individually with the .do scripts in the sources/sim folder.
+1. 	In Modelsim, go to File and Change directory... Select the sources/src directory.
 2. 	Enter 'do ../simu/simu_script.do' where 'simu_script.do' is the name of the script to run.
-	e.g. To run alu_tb.vhd, enter 'do ../simu/simu_alu.do'
+	e.g. To run mipsCPU_tb.vhd, enter 'do ../simu/simu_mipsCPU.do'
+	
+## Note
+To run the testbench of the instruction memory, you need to uncomment lines 35 to 39 and comment lines 44 to 73.
+Lines 35 to 39 are for instrMemory_tb.vhd while lines 44 to 73 are for mipsCPU_tb.vhd.

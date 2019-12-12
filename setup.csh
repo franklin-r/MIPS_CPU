@@ -42,7 +42,7 @@ source ${CMC_CONFIG}
 #-----------------------------------------------------------------------------
 
 # Global
-setenv SRC_DIR      ${PROJECT_HOME}/sources
+setenv SRC_DIR      ${PROJECT_HOME}/sources/src
 setenv CONST_DIR    ${PROJECT_HOME}/constraints
 setenv SIM_DIR      ${PROJECT_HOME}/simulation
 setenv IMP_DIR      ${PROJECT_HOME}/implementation
